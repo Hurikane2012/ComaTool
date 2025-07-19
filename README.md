@@ -72,6 +72,7 @@ You'll need the following:
      - **Name:** Anything (e.g. `yt-to-twitch-bot`)
      - **OAuth Redirect URLs:** `http://localhost`
      - **Category:** Chat Bot
+     - **Client Type:** Confidential
    - Click **"Create"**
 
 2. **Copy your Client ID and Client Secret**
