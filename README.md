@@ -91,7 +91,7 @@ You'll need the following (Save your results to a txt file or to notepad so you 
    - Copy the entire `xxxxxxxxxxxxxx` part (From the `=` to the `&scope`) — that’s your `TWITCH_TOKEN`
 
 4. **Get Your Twitch User ID (TWITCH_USER_ID):**
-   - Run the included `user_id_generator.py` script (we provided it for you)
+   - Run the included `user_id_generator.py` script (I provided it for you)
    - It will print your user ID to use in `TWITCH_USER_ID`
 
 5. **Set Your Channel Name (TWITCH_CHANNEL):**
