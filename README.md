@@ -42,7 +42,7 @@ Thanks for understanding — this first version is open-source so you can fully 
 ### 🔧 Installation
 
 1. Go to releases and download both .py files.
-2. Get PyCharm from [PyCharm](https://www.jetbrains.com/pycharm/download) if you haven't already.
+2. Ge [PyCharm](https://www.jetbrains.com/pycharm/download) if you haven't already.
 3. In a new PyCharm project, import the two .py files.
 
 ---
