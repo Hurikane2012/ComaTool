@@ -55,7 +55,7 @@ Before you can run the bot, you need to gather a few credentials from **Twitch**
 
 ### 🟣 Twitch Setup
 
-You'll need the following:
+You'll need the following (Save your results to a txt file or to notepad so you don't have to manually remember all of them):
 
 - `TWITCH_TOKEN` – OAuth token for your bot
 - `TWITCH_CLIENT_ID` – App Client ID from Twitch Dev Console
