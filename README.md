@@ -14,73 +14,9 @@ A Python-based bot that listens to a **YouTube livestream chat** and forwards an
 
 ---
 
-## 🚀 Getting Started
-
-### Requirements
-- Python 3.11 or later (tested on Python 3.13)
-- [PyCharm](https://www.jetbrains.com/pycharm/download) (recommended for setup and running)
-
-> **Note:** This project was developed entirely in **PyCharm**, and we recommend using it for the best compatibility and ease of use.
-
----
-
 ### 🔧 Installation
 
-1. Go to releases and download both .py files.
-2. Get [PyCharm](https://www.jetbrains.com/pycharm/download) if you haven't already.
-3. In a new PyCharm project, import the two .py files.
-
----
-
-## 🔑 Setup: Getting Required Keys
-
-Before you can run the bot, you need to gather a few credentials from **Twitch** and **YouTube**.
-
----
-
-### 🟣 Twitch Setup
-
-You'll need the following (Save your results to a txt file or to notepad so you don't have to manually remember all of them):
-
-- `TWITCH_TOKEN` – OAuth token for your bot
-- `TWITCH_CLIENT_ID` – App Client ID from Twitch Dev Console
-- `TWITCH_CLIENT_SECRET` – App Client Secret from Twitch Dev Console
-- `TWITCH_USER_ID` – Your numeric Twitch User ID
-- `TWITCH_CHANNEL` – Your Twitch channel name (lowercase)
-
-#### Step-by-step:
-
-1. **Create a Twitch Developer Application:**
-   - Go to: [Twitch Console Apps](https://dev.twitch.tv/console/apps)
-   - Click **"Register Your Application"**
-   - Fill in:
-     - **Name:** Anything (e.g. `yt-to-twitch-bot`)
-     - **OAuth Redirect URLs:** `http://localhost`
-     - **Category:** Chat Bot
-     - **Client Type:** Confidential
-   - Click **"Create"**
-
-2. **Copy your Client ID and Client Secret**
-   - These go into `TWITCH_CLIENT_ID` and `TWITCH_CLIENT_SECRET`
-
-3. **Generate your OAuth Token (TWITCH_TOKEN):**
-   - Use the following URL to start the manual token flow (replace `YOUR_CLIENT_ID`):
-     ```
-     https://id.twitch.tv/oauth2/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=http://localhost&response_type=token&scope=chat:read+chat:edit+user:bot+user:write:chat
-     ```
-   - Log in and **authorize** the app
-   - After being redirected, look at the URL bar:
-     ```
-     http://localhost/#access_token=xxxxxxxxxxxxxx&scope=...
-     ```
-   - Copy the entire `xxxxxxxxxxxxxx` part (From the `=` to the `&scope`) — that’s your `TWITCH_TOKEN`
-
-4. **Get Your Twitch User ID (TWITCH_USER_ID):**
-   - Run the included `user_id_generator.py` script (I provided it for you)
-   - It will print your user ID to use in `TWITCH_USER_ID`
-
-5. **Set Your Channel Name (TWITCH_CHANNEL):**
-   - Just use your Twitch username in **lowercase** (e.g. `itscomatic`)
+Go to releases and download the .exe file.
 
 ---
 
