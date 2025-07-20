@@ -4,21 +4,6 @@ A Python-based bot that listens to a **YouTube livestream chat** and forwards an
 
 ---
 
-## ⚠️ Note About Sensitive Info
-
-I want to sincerely apologize that this version of the bot requires you to manually provide sensitive credentials like your Twitch token, client secret, and user ID.
-
-I understand this isn't ideal or secure for a public tool, and I take that seriously.
-
-**The next version is already being planned**, and it will:
-- No longer ask for any private credentials
-- Be fully integrated as a secure Twitch Extension
-- Only require a YouTube video link to work
-
-Thanks for understanding — this first version is open-source so you can fully see what it does, and improvements are coming soon!
-
----
-
 ## 🌟 Features
 - Reads messages from a specified YouTube livestream
 - Sends matching messages to your Twitch channel chat
